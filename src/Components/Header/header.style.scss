@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+.frame {
+  width: 100%;
+  position: relative;
+}
+
+.header_profile_icon {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
+.profile_details {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.name,
+.title {
+  margin: 0;
+  padding: 8px 0;
+}
+.location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.location img {
+  width: 4%;
+}

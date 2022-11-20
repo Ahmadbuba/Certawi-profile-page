@@ -1,0 +1,48 @@
+.user_form {
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.link_items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.myFlex {
+  flex: 1;
+  flex-basis: 0;
+  border-bottom: 2px solid green;
+  display: flex;
+  justify-content: center;
+}
+
+.form_item {
+  position: relative;
+  width: 100%;
+}
+
+.form_item input {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 5%;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  margin: 0.5rem 0;
+}
+
+.form_item label {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 1rem 0;
+  border: 1px solid red;
+  padding: 1rem 1.5rem;
+}
