@@ -35,7 +35,7 @@ const Navbar = () => {
             <img src={menu} />
           </button>
         </div>
-        {!show && (
+        {show && (
           <div className="menu_holder">
             <div className="menu_items">
               <span className="item">Home</span>
