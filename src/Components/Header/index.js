@@ -14,10 +14,10 @@ const Header = () => {
         </div>
       </div>
       <div className="profile_details">
-        <div>
+        <div className="name">
           <h2>Olamposi Benjamin</h2>
         </div>
-        <div>Advisor and Consultant at Stripe Inc</div>
+        <div className="title">Advisor and Consultant at Stripe Inc</div>
         <div className="location">
           <img src={map} /> <span>Lagos, Nigeria</span>
         </div>

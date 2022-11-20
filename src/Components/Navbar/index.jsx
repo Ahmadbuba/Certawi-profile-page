@@ -22,12 +22,12 @@ const Navbar = () => {
             <img src={bulb} />
           </div>
           <div className="list_menu_items_holder">
-            <a className="list_menu_item">Home</a>
-            <a className="list_menu_item">Browse Templates</a>
-            <a className="list_menu_item">Pricing</a>
-            <a className="list_menu_item">Blog</a>
-            <a className="list_menu_item">FAQs</a>
-            <a className="list_menu_item flex">
+            <a className="list_menu_item first">Home</a>
+            <a className="list_menu_item others">Browse Templates</a>
+            <a className="list_menu_item others">Pricing</a>
+            <a className="list_menu_item others">Blog</a>
+            <a className="list_menu_item others">FAQs</a>
+            <a className="list_menu_item flex last">
               <span>My Account</span> <img src={image} />
             </a>
           </div>
@@ -38,11 +38,11 @@ const Navbar = () => {
         {!show && (
           <div className="menu_holder">
             <div className="menu_items">
-              <span>Home</span>
-              <span>Browse Templates</span>
-              <span>Pricing</span>
-              <span>Blog</span>
-              <span>FAQs</span>
+              <span className="item">Home</span>
+              <span className="item">Browse Templates</span>
+              <span className="item">Pricing</span>
+              <span className="item">Blog</span>
+              <span className="item">FAQs</span>
             </div>
           </div>
         )}

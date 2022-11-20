@@ -25,25 +25,32 @@ const Footer = () => {
         </div>
         <div className="flexify">
           <h6>Stay up to daye with our Product</h6>
-          <form>
-            <div className="form_item">
-              <input id="subscribe" type="text" />
-              <label htmlFor="subscribe">Subsribe</label>
-            </div>
-            <button>Subscribe</button>
-          </form>
         </div>
       </div>
+      <form className="grid_layout">
+        <div className="footer_form">
+          <input id="subscribe" type="text" />
+          <label htmlFor="subscribe">Subsribe</label>
+        </div>
+        <button className="footer_btn">Subscribe</button>
+      </form>
       <div className="last_footer_child">
-        <h3 className="flexMe">
-          Certawi <img src={bulb} />
-        </h3>
-        <h5 className="flexMe2">
-          We are social <img src={ig} />
+        <div className="flexMe2">
+          <h3 className="">Certawi </h3>
+          <img src={bulb} />
+        </div>
+
+        <h5>info@certawi.com</h5>
+        <div className="flexMe3">
+          <h5>We are social</h5>
+          <img src={ig} />
           <img src={linkedin} />
           <img src={twitter} />
           <img src={github} />
-        </h5>
+        </div>
+      </div>
+      <div className="centered">
+        Copyright 2022 Team Headlight. All rights reserved.
       </div>
     </div>
   );
